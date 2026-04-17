@@ -2,4 +2,8 @@
 title: "About"
 ---
 
-Zhaolun.fan@outlook.com
+
+## Contact
+
+- **Email**: zhaolun.fan@outlook.com
+

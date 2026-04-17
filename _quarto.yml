@@ -16,6 +16,7 @@ website:
 
 format:
   html:
+    output-dir: docs
     theme:
       - cosmo
       - brand

@@ -1,8 +1,40 @@
 ---
-title: "Zhaolun Fan 范兆伦"
+title: "Zhaolun Fan"
 ---
 
 
+:::{.column-body}
+::: columns
 
-I am a computational sociologist working on Sociology of Culture and Social Psychology
+::: column
+<!-- 头像位置：请将照片命名为 photo.jpg 或 photo.png 放在项目根目录 -->
+
+I am a PhD student at École Normale Supérieure – Paris Sciences et Lettres University.
+
+I am a computational sociologist studying how social behavior vary across societies.
+
+I use large-scale data to understand how individuals differ in seeing themselves as independent or as part of a group, and how these differences shape social networks and broader social patterns. I focus in particular on variation across East Asia and Western Europe.
+:::
+
+::: column
+<!-- 取消下面这行的注释来显示头像，将 photo.jpg 替换为你的照片文件名 -->
+<!-- ![](photo.jpg){width=250px} -->
+:::
+
+:::
+:::
+
+
+## Research Interests
+
+- Sociology of Culture
+- Computational Social Science
+
+
+
+## Education
+
+- **PhD in Computational Social Science**, École Normale Supérieure – PSL 
+- **M.A. in Sociology**, Tsinghua University 
+- **B.A. in Sociology**, Uppsala Univerity 
 
