@@ -121,11 +121,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#zhaolun-fan" id="toc-zhaolun-fan" class="nav-link active" data-scroll-target="#zhaolun-fan">Zhaolun Fan</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research Interests</a></li>
-  <li><a href="#research-summary" id="toc-research-summary" class="nav-link" data-scroll-target="#research-summary">Research Summary</a></li>
+  <li><a href="#contact" id="toc-contact" class="nav-link active" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
     </div>
@@ -151,39 +147,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="zhaolun-fan" class="level2">
-<h2 class="anchored" data-anchor-id="zhaolun-fan">Zhaolun Fan</h2>
-<p>PhD Student</p>
-<hr>
-</section>
 <section id="contact" class="level2">
 <h2 class="anchored" data-anchor-id="contact">Contact</h2>
 <ul>
 <li><strong>Email</strong>: Zhaolun.fan@outlook.com</li>
 <li><strong>Google Scholar</strong>: <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID">Zhaolun Fan</a></li>
 </ul>
-<hr>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<ul>
-<li><strong>PhD in Computational Social Science</strong>, École Normale Supérieure – Paris Sciences et Lettres</li>
-<li><strong>M.A.&nbsp;in Sociology</strong>, Tsinghua University</li>
-<li><strong>B.A. in Sociology</strong>, Uppsala Univerity</li>
-</ul>
-<hr>
-</section>
-<section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
-<ul>
-<li>Sociology of Culture</li>
-<li>Computational Social Science</li>
-</ul>
-<hr>
-</section>
-<section id="research-summary" class="level2">
-<h2 class="anchored" data-anchor-id="research-summary">Research Summary</h2>
-<p>I study how social behavior varies across societies using large-scale historical and contemporary data. My work focuses on understanding how individuals differ in seeing themselves as independent or as part of a group, and how these differences shape social networks and broader social patterns. I examine these questions across East Asia and Western Europe.</p>
 
 
 </section>
@@ -261,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/zhaolunfan\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
